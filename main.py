@@ -45,8 +45,8 @@ def main():
 
         print("\nAssistant: ", end="")
         for chunk in agent_executor.stream(
-            {"messages":[HumanMessage(content=user_input)]}
-        ):
+            {"messages":[HumanMessage(content=user_input)]}):
+            
             if "agent" in chunk and "messages" in chunk["agent"]:
                 for message in chunk["agent"]["messages"]:
                     print(message.content, end="")
