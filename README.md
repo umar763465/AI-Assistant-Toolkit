@@ -13,14 +13,15 @@ An interactive AI assistant built with **LangChain** and **OpenAI's Chat API**. 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ai-assistant-toolkit.git
+git clone https://github.com/umarjawad123/ai-assistant-toolkit.git
 cd ai-assistant-toolkit
 
 Install required packages:
 pip install -r requirements.txt
-Set up environment variables:
 
+Set up environment variables:
 Create a .env file in the root directory.
+
 Add your OpenAI API key:
 OPENAI_API_KEY=your_openai_api_key
 
